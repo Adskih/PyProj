@@ -14,14 +14,12 @@ if sys.platform == 'win32':
     ssrf_path = r"C:\Test.Zakupki.local\ssrf"
 elif sys.platform == 'linux':
     if hostname == 'esb':
-        CONNECTION = {'database':'DI', 'user':'dev', 'password':'Ghbuyhjgj123s', 'host':'new-pdb.gosbroker.pro',
-                      'port': 5432}
+        CONNECTION = 
         path = '/opt/storage/temp/kladr'
         patool = '/usr/local/bin/patool'
         ssrf_path = '/opt/storage/temp/ssrf'
     elif hostname == 'test-esb':
-        CONNECTION = {'database': 'DI', 'user': 'dataintegrator', 'password': 'dataintegrator', 'host': 'test-pdb.gosbroker.pro',
-                      'port': 5432}
+        CONNECTION = 
         path = '/storage/temp/kladr'
         patool = '/usr/local/bin/patool'
         ssrf_path = '/storage/temp/ssrf'
